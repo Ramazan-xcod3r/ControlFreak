@@ -34,6 +34,7 @@ export default function Main() {
                 <Route exact path="/CorrectDatatable" element={<CorrectDatatable />} />
                 <Route path="/IncorrectDatatable" element={<IncorrectDatatable />} />
                 <Route path="/Upload" element={<Upload />} />
+                <Route path="/" element={<Upload />} />
             </Routes>
 
         </Router>
